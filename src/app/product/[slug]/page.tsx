@@ -84,7 +84,7 @@ const ProductPage = async ({ params }: { params: { slug: string } }) => {
                 key={data._id}
                 price_id={data.price_id}
               />
-              <Button variant={"secondary"}>Checkout now</Button>
+             
             </div>
             <p className="mt-12 text-base text-gray-500 tracking-wide">
               {data.description}
